@@ -1,0 +1,16 @@
+{
+  "name": "digital-hub-cocreation-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portal front-end inspirado em Angular para demonstrar habilidades da vaga Digital Hub.",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "dev": "npx lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.4.0"
+  }
+}
+

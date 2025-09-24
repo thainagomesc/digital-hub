@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Hub Portal</title>
+    <meta
+      name="description"
+      content="Dashboard colaborativo da Digital Hub com foco em iniciativas digitais e experiência do usuário."
+    />
+    <link rel="stylesheet" href="./public/css/styles.css" />
+  </head>
+  <body>
+    <div id="live-region" class="sr-only" aria-live="polite"></div>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <div class="site-header__brand">
+          <img src="./public/assets/images/logo.svg" alt="Logo Digital Hub" class="site-header__logo" />
+          <span class="site-header__title">Digital Hub</span>
+        </div>
+        <nav class="site-header__nav" aria-label="Principal">
+          <a href="#about">Visão</a>
+          <a href="#projects">Projetos</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#team">Time</a>
+          <a href="#contact" class="btn btn--ghost">Agendar co-criação</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <h1>Transformamos desafios de negócios em impacto digital real</h1>
+            <p>
+              Squad da Digital Hub dedicada a co-criar experiências digitais com os clientes.
+              Visualize a saúde das iniciativas, próximos marcos e descubra onde podemos acelerar juntos.
+            </p>
+            <div class="hero__cta">
+              <a href="#projects" class="btn btn--primary">Explorar iniciativas</a>
+              <a href="#contact" class="btn btn--secondary">Solicitar discovery</a>
+            </div>
+            <dl class="hero__stats">
+              <div>
+                <dt>Total de iniciativas</dt>
+                <dd data-counter-total>0</dd>
+              </div>
+              <div>
+                <dt>Em discovery</dt>
+                <dd data-counter="Discovery">0</dd>
+              </div>
+              <div>
+                <dt>Em delivery</dt>
+                <dd data-counter="Delivery">0</dd>
+              </div>
+              <div>
+                <dt>Em evolução</dt>
+                <dd data-counter="Stabilization">0</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero__illustration">
+            <img
+              src="./public/assets/images/hero-collab.svg"
+              alt="Ilustração de equipe colaborando em ambiente digital"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section--light">
+        <div class="container section__inner">
+          <div class="section__header">
+            <h2>Visão integrada do portfólio digital</h2>
+            <p>
+              Consolidamos métricas de produto, qualidade e operação para apoiar decisões rápidas em ritos semanais.
+              Dados atualizados alimentam squads multidisciplinares que atuam com foco em experiência, IA e automação.
+            </p>
+          </div>
+          <div id="metrics-grid" class="metrics-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container section__inner">
+          <div class="section__header">
+            <h2>Projetos em co-criação</h2>
+            <p>Filtre por fase para visualizar rapidamente onde direcionar energia do squad.</p>
+            <div class="filter-chips" role="group" aria-label="Filtro por status">
+              <button class="chip is-active" type="button" data-filter-status="all">Todos</button>
+              <button class="chip" type="button" data-filter-status="Discovery">Discovery</button>
+              <button class="chip" type="button" data-filter-status="Delivery">Delivery</button>
+              <button class="chip" type="button" data-filter-status="Stabilization">Evolução</button>
+            </div>
+          </div>
+          <div id="project-list" class="project-list" data-loading="false"></div>
+        </div>
+      </section>
+
+      <section id="workflow" class="section section--dark">
+        <div class="container section__inner section__inner--narrow">
+          <h2>Como estruturamos a jornada com o cliente</h2>
+          <ol class="workflow">
+            <li>
+              <h3>Discovery estratégico</h3>
+              <p>Workshops imersivos mapeando desafios e co-construindo hipóteses com stakeholders.</p>
+            </li>
+            <li>
+              <h3>Delivery incremental</h3>
+              <p>Sprints quinzenais com releases contínuos, telemetry e automação pipeline.</p>
+            </li>
+            <li>
+              <h3>Stabilization & insights</h3>
+              <p>Observabilidade ativa, feature flags e roadmap orientado a dados de experiência.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="team" class="section section--light">
+        <div class="container section__inner">
+          <div class="section__header">
+            <h2>Time multidisciplinar</h2>
+            <p>Disponibilidade e expertises do squad para apoiar novos desafios.</p>
+          </div>
+          <div id="team-grid" class="team-grid"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--accent">
+        <div class="container section__inner section__inner--narrow">
+          <h2>Vamos cocriar o próximo case?</h2>
+          <p>
+            Agende uma sessão de discovery para entendermos o desafio do seu cliente. Organizamos a dinâmica,
+            facilitamos as discussões e trazemos protótipos navegáveis em até 10 dias úteis.
+          </p>
+          <a class="btn btn--light" href="mailto:cocreation@digitalhub.com">Enviar briefing</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>© 2025 Digital Hub · Co-criando soluções com tecnologia, IA e pessoas.</p>
+        <a href="https://digitalhub.com" target="_blank" rel="noopener">digitalhub.com</a>
+      </div>
+    </footer>
+
+    <script type="module" src="./public/js/app.js"></script>
+  </body>
+</html>
+
+

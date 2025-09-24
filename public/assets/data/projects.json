@@ -1,0 +1,75 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Journey360 AI",
+    "client": "Banco Vision",
+    "status": "Delivery",
+    "startDate": "2025-03-04",
+    "lead": "Ana Ribeiro",
+    "description": "Implementação de camada de personalização omnichannel integrando dados de CRM, IA generativa e analytics em tempo real.",
+    "tags": ["Angular", "Azure", "IA", "Micro frontends"],
+    "healthScore": 82,
+    "nextMilestone": "Go-live parcial CX App",
+    "nextMilestoneDue": "2025-10-12",
+    "focusAreas": [
+      "Finalizar esteira de testes automatizados",
+      "Rodar pesquisa rápida de usabilidade",
+      "Habilitar feature flags para rollout controlado"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "LogNext Control Tower",
+    "client": "TransGlobal Logistics",
+    "status": "Discovery",
+    "startDate": "2025-08-20",
+    "lead": "Henrique Sato",
+    "description": "Exploração de solução para visibilidade ponta a ponta da cadeia logística com dashboards operacionais e alertas inteligentes.",
+    "tags": ["Discovery", "UX Research", "Workshops"],
+    "healthScore": 68,
+    "nextMilestone": "Protótipo validado com stakeholders",
+    "nextMilestoneDue": "2025-10-02",
+    "focusAreas": [
+      "Convergir jornada ideal com área de operações",
+      "Definir KPIs para MVP iterativo",
+      "Planejar prova de conceito com IoT"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Retail Pulse Insights",
+    "client": "Grupo Varejo Alfa",
+    "status": "Stabilization",
+    "startDate": "2024-11-10",
+    "endDate": "2025-07-15",
+    "lead": "Juliana Martins",
+    "description": "Portal de performance em lojas com foco em redução de ruptura e aumento de conversão por IA prescritiva.",
+    "tags": ["DataViz", "Angular", "Observability"],
+    "healthScore": 90,
+    "nextMilestone": "Sprint de otimização UX",
+    "nextMilestoneDue": "2025-09-28",
+    "focusAreas": [
+      "Rodar teste A/B com novo layout de cards",
+      "Evoluir alerta inteligente de ruptura",
+      "Mapear integrações adicionais de estoque"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "HealthConnect SelfCare",
+    "client": "Vida Plena Saúde",
+    "status": "Delivery",
+    "startDate": "2025-04-18",
+    "lead": "Renato Albuquerque",
+    "description": "Aplicativo de autoatendimento com triagem digital, agendamento e jornada preventiva multicanal.",
+    "tags": ["Angular", "Accessibility", "Design System"],
+    "healthScore": 74,
+    "nextMilestone": "Release piloto com clínica parceira",
+    "nextMilestoneDue": "2025-10-20",
+    "focusAreas": [
+      "Refinar fluxos de acessibilidade",
+      "Sincronizar agenda com legado do cliente",
+      "Treinar concierge digital com IA"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+﻿[
+  {
+    "name": "Marina Duarte",
+    "role": "Product Designer",
+    "availability": "60% disponível",
+    "skills": ["UX Research", "Design System", "Acessibilidade"]
+  },
+  {
+    "name": "Caio Nascimento",
+    "role": "Front-end Angular",
+    "availability": "40% disponível",
+    "skills": ["Angular", "NX", "Teste automatizado"]
+  },
+  {
+    "name": "Laura Peixoto",
+    "role": "Data & IA Specialist",
+    "availability": "30% disponível",
+    "skills": ["Azure ML", "Power BI", "Prompt Engineering"]
+  },
+  {
+    "name": "Victor Faria",
+    "role": "Scrum Master",
+    "availability": "80% disponível",
+    "skills": ["Dinâmicas", "Facilitação", "OKRs"]
+  }
+]
